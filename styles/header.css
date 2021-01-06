@@ -1,0 +1,20 @@
+header {
+    display: flex;
+    background-color: #87bdd8;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+header > img {
+}
+
+header > h1 {
+    text-align: center;
+    /* border: solid red 5px; */
+    width: 600px;
+    
+}
+
+header > nav {
+
+}

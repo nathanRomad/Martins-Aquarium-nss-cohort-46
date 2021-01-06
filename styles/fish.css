@@ -1,0 +1,25 @@
+.containerLeft__fishList {
+    border: 1px solid grey;
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    justify-content: space-around;
+    flex-basis: 85%;
+    background-color: teal;
+}
+
+.fishCard {
+    border: 2px solid grey;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-basis: 25%;
+}
+
+.fishCard img {
+    width: 25%;
+}

@@ -1,0 +1,16 @@
+footer {
+    /* position: fixed; */
+    display: flex;
+    background-color: #b7d7e8;
+    padding: 5px;
+}
+
+.contactContainer {
+    color: whitesmoke;
+    flex: 50%;    
+}
+
+.socialContainer {
+    color: blanchedalmond;
+    flex: 50%;
+}

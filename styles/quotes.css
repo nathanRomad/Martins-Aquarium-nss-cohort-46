@@ -1,0 +1,21 @@
+.containerLeft__quoteList {
+    border: 2px solid grey;
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    justify-content: space-around;
+    background-color: #daebe8;
+    flex-basis: 85%;
+}
+
+.quoteCard {
+    border: 2px solid whitesmoke;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-basis: 50%;
+}

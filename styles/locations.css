@@ -1,0 +1,25 @@
+.containerLeft__travelLocations {
+    border: 2px solid grey;
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    justify-content: space-around;
+    background-color: #cfe0e8;
+    flex-basis: 85%;
+}
+
+.locationCard {
+    border: 2px solid goldenrod;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-basis: 50%;
+}
+
+.locationCard img {
+    width: 25%;
+}

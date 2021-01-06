@@ -1,0 +1,11 @@
+.billsThoughts {
+    border: 1px solid grey;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: stretch;
+    background-color: whitesmoke;
+    /* justify-content: space-around; */
+    /* flex-basis: 85%; */
+}

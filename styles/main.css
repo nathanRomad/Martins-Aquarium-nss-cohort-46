@@ -1,0 +1,42 @@
+@import "./fish.css";
+@import "./footer.css";
+@import "./header.css";
+@import "./locations.css";
+@import "./quotes.css";
+@import "./tips.css";
+
+
+
+
+
+.contentContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    border: solid black 2px;
+    padding: 2px;;
+}
+
+.containerLeft {
+    flex-basis: 85%;
+    margin: auto;
+    background-color: #f2e394;
+    /* display: flex; */
+    /* border: solid green 10px; */
+}
+
+.containerRight {
+    flex-basis; 15%;
+    align-self: start;
+    margin: auto;
+    /* height: 750px; */
+    background-color: grey;
+    border: solid aquamarine 5px;
+    /* display: flex; */
+    /* align-items: stretch; */
+}
+
+
+
+
+
