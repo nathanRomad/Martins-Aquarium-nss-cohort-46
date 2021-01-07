@@ -27,11 +27,12 @@
 
 .containerRight {
     flex-basis; 15%;
-    align-self: start;
     margin: auto;
-    /* height: 750px; */
-    background-color: grey;
-    border: solid aquamarine 5px;
+    background-color: #e7e7e7;
+    width: 25%;
+    /* align-self: start; */
+    /* height: 1250px;
+    /* border: solid aquamarine 5px; */
     /* display: flex; */
     /* align-items: stretch; */
 }

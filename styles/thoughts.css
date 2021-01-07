@@ -5,7 +5,18 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-items: stretch;
-    background-color: whitesmoke;
+    background-color: grey;
+    justify-content: space-evenly;
     /* justify-content: space-around; */
     /* flex-basis: 85%; */
+}
+
+.billsThoughts {
+    border: 2px solid grey;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-basis: 25%;
 }

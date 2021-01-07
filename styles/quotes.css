@@ -6,8 +6,8 @@
     flex-wrap: wrap;
     align-items:flex-start;
     justify-content: space-around;
-    background-color: #daebe8;
     flex-basis: 85%;
+    background-color: #daebe8;
 }
 
 .quoteCard {
@@ -17,5 +17,5 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    flex-basis: 50%;
+    flex-basis: 25%;
 }
