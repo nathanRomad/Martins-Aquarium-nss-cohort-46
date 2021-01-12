@@ -13,4 +13,3 @@ const fishCollection = [
 export const useFish = () => {
     return fishCollection.slice()
 }
-
