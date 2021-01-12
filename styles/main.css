@@ -6,19 +6,16 @@
 @import "./tips.css";
 
 
-
-
-
 .contentContainer {
     display: flex;
     justify-content: space-between;
     margin: auto;
     border: solid black 2px;
-    padding: 2px;;
+    padding: 2px;
 }
 
 .containerLeft {
-    flex-basis: 85%;
+    flex-basis: 75%;
     margin: auto;
     background-color: #f2e394;
     /* display: flex; */
@@ -26,17 +23,17 @@
 }
 
 .containerRight {
-    flex-basis; 15%;
-    margin: auto;
+    display: flex;
+    flex-basis: 25%;
+    padding: 2px;
+    /* margin: auto; */
     background-color: #e7e7e7;
     width: 25%;
     /* align-self: start; */
     /* height: 1250px;
     /* border: solid aquamarine 5px; */
-    /* display: flex; */
     /* align-items: stretch; */
 }
-
 
 
 

@@ -1,0 +1,7 @@
+const fishCollection = [
+    {
+        name: "",
+        food: "",
+        
+    }
+]
