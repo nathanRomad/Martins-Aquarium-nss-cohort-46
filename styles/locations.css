@@ -1,17 +1,19 @@
 .containerLeft__travelLocations {
-    border: 2px solid grey;
-    padding: 2px;
+    border: 1px solid grey;
+    padding: 0 100px 50px;
+    padding-right: 100px;
+	padding-left: 100px;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
+    background-color: #b2d5e7;
+    /* flex-direction: row;
     align-items:flex-start;
     justify-content: space-around;
-    background-color: #cfe0e8;
-    flex-basis: 85%;
+    flex-basis: 85%; */
 }
 
 .locationCard {
-    border: 2px solid goldenrod;
+    border: 2px solid whitesmoke;
     /* flex-direction: column;
     align-items: center;
     flex-basis: 25%; */
@@ -19,10 +21,16 @@
 	flex-wrap: wrap;
 	padding: 0 100px 50px;
     padding-right: 100px;
-	padding-left: 100px;
+    padding-left: 100px;
+    
+    width: 200px;
+	background-color: snow;
+	margin: 10px;
+	height: 200px;
 	
 }
 
 .locationCard img {
-    width: 25%;
-}
+    height: 100px;
+	width: auto;
+	object-fit: contain;}

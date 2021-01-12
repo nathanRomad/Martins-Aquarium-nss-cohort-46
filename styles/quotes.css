@@ -1,13 +1,15 @@
 .containerLeft__quoteList {
-    border: 2px solid grey;
-    padding: 2px;
+    border: 1px solid grey;
+    padding: 0 100px 50px;
+    padding-right: 100px;
+	padding-left: 100px;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
+    background-color: #b7d7e8;
+    /* flex-direction: row;
     align-items:flex-start;
     justify-content: space-around;
-    flex-basis: 85%;
-    background-color: #daebe8;
+    flex-basis: 85%; */
 }
 
 .quoteCard {
@@ -21,6 +23,15 @@
     padding-right: 100px;
 	padding-left: 100px;
 	
-
+    width: 200px;
+	background-color: snow;
+	margin: 10px;
+	height: 200px;
     
 }
+
+.quoteCard img {
+    height: 100px;
+	width: auto;
+	object-fit: contain;
+}}
