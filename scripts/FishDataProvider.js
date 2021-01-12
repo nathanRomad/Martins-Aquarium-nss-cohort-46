@@ -1,9 +1,10 @@
 const fishCollection = [
     {
+        img: "",
         name: "",
         species: "",
-        location: "",
         length: "",
+        location: "",
         food: "",
 
     }
