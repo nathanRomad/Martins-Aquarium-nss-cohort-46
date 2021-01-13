@@ -1,7 +1,0 @@
-const fishCollection = [
-    {
-        name: "",
-        food: "",
-        
-    }
-]

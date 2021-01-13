@@ -3,36 +3,36 @@
 @import "./header.css";
 @import "./locations.css";
 @import "./quotes.css";
-@import "./tips.css";
+@import "./quotes.css";
 
 
 .contentContainer {
     display: flex;
     justify-content: space-between;
-    margin: auto;
     border: solid black 2px;
     padding: 2px;
 }
 
 .containerLeft {
     flex-basis: 75%;
-    margin: auto;
     background-color: #f2e394;
-    /* display: flex; */
-    /* border: solid green 10px; */
+    display: flex;
+    flex-direction: column;
+    /* border: solid green 10px; */    
+    /* margin: auto; */
 }
 
 .containerRight {
     display: flex;
     flex-basis: 25%;
     padding: 2px;
-    /* margin: auto; */
     background-color: #e7e7e7;
     width: 25%;
     /* align-self: start; */
     /* height: 1250px;
     /* border: solid aquamarine 5px; */
     /* align-items: stretch; */
+        /* margin: auto; */
 }
 
 
