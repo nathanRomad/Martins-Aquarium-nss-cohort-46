@@ -1,4 +1,4 @@
-const locatonCollection = [
+const locationCollection = [
     {
         city: "Sydney",
         country: "Australia",
@@ -26,5 +26,5 @@ const locatonCollection = [
 ]
 
 export const useLocation = () => {
-    return locatonCollection.slice()
+    return locationCollection.slice()
 }
