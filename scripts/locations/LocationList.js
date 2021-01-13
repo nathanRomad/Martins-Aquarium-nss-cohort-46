@@ -1,4 +1,4 @@
-import { useLocation } from '/scripts/locations/LocationDataProvider'
+import { useLocation } from '/scripts/locations/LocationDataProvider.js'
 import { Location } from '/scripts/locations/Locations.js'
 
 export const LocationList = () => {

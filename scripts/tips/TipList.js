@@ -7,8 +7,8 @@ export const TipList = () => {
     const tipS = useTip()
 
      let tipHTMLRepresentations = ""
-     for (const tip of Tips) {
-        tipHTMLRepresentations += Tips(tipS)
+     for (const tip of tipS) {
+        tipHTMLRepresentations += Tips(tip)
      }
 
     contentElement.innerHTML += `

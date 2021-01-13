@@ -3,13 +3,12 @@
 @import "./header.css";
 @import "./locations.css";
 @import "./quotes.css";
-@import "./tips.css";
+@import "./quotes.css";
 
 
 .contentContainer {
     display: flex;
     justify-content: space-between;
-    margin: auto;
     border: solid black 2px;
     padding: 2px;
 }
@@ -18,7 +17,8 @@
     flex-basis: 75%;
     margin: auto;
     background-color: #f2e394;
-    /* display: flex; */
+    display: flex;
+    flex-direction: column;
     /* border: solid green 10px; */
 }
 
