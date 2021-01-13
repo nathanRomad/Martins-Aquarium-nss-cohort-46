@@ -1,9 +1,10 @@
-export const Locations = (location) => {
+export const Location = (location) => {
     return `
         <section class="locationCard">
-            <div class="location__city">${location.city}</div>
-            <div class="location__bodyOfWater">${location.bodyOfWater}</div>
-            <div class="location__landmark">${location.landmark}</div>
+            <div class="locationCard__city">${location.city}</div>
+            <div class="locationCard__country">${location.country}</div>
+            <div class="locationCard__bodyOfWater">${location.bodyOfWater}</div>
+            <div class="locationCard__landmark">${location.landmark}</div>
         </section>
     `
 }
