@@ -3,8 +3,8 @@
  */
 
 // TODO: Import `useFish` from the data provider module
-import { useFish } from './FishDataProvider.js'
-import { Fish } from './Fish.js'
+import { useFish } from '/scripts/fish/FishDataProvider.js'
+import { Fish } from '/scripts/fish/Fish.js'
 
 export const FishList = () => {
     
