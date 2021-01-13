@@ -14,13 +14,14 @@
 
 .fishCard {
     border: 2px solid whitesmoke;
-    width: 200px;
+    width: auto;
 	background-color: snow;
 	margin: 10px;
-    height: 200px;
+    object-fit: contain;
 }
 
 .fishCard img {
     height: 100px;
 	width: auto;
-	object-fit: contain;}
+    object-fit: contain;
+}
