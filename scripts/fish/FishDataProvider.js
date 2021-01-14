@@ -44,3 +44,32 @@ const fishCollection = [
 export const useFish = () => {
     return fishCollection.slice()
 }
+
+//Begin 3 functions for Holy fish Martin encountered in Tikal.
+// export const mostHolyFish = () => {
+//     // 3, 6, 9, 12, etc... fish
+//     const holyFish = []
+
+//     for () {
+
+//     }
+
+//     return holyFish
+// }
+
+// export const soldierFish = () => {
+//     // 5, 10, 15, 20, 25, etc... fish
+//     return soldiers
+// }
+
+// export const nonHolyFish = () => {
+//     // Any fish not a multiple of 3 or 5
+//     return regularFish
+// }
+
+
+// for (const number of numbers) {
+//     if (number % 2 === 0) {
+//         console.log(number)
+//     }
+// }
