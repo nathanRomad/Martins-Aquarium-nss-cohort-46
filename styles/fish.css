@@ -12,12 +12,19 @@
     flex-basis: 85%; */
 }
 
+.fishList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 .fishCard {
     border: 2px solid whitesmoke;
     width: auto;
 	background-color: snow;
 	margin: 10px;
     object-fit: contain;
+    max-width: 250px;
+    max-height: auto;
 }
 
 .fishCard img {
