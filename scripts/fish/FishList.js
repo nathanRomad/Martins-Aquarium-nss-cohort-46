@@ -16,19 +16,19 @@ export const FishList = () => {
     // const fishes = useFish()
 
     const holyFishArray = mostHolyFish()
-    const holyFishHTMLRepresentation = buildFishListHTML(holyFishArray, "Holy Fish")
+    const holyFishHTMLRepresentations = buildFishListHTML(holyFishArray, "Holy Fish")
     
     const soldierFishArray = soldierFish()
-    const soldierFishHTMLRepresentation = buildFishListHTML(soldierFishArray, "Soldier Fish")
+    const soldierFishHTMLRepresentations = buildFishListHTML(soldierFishArray, "Soldier Fish")
     
     const regularFishArray = nonHolyFish()
-    const regularFishHTMLRepresentation = buildFishListHTML(regularFishArray, "Regular Fish")
+    const regularFishHTMLRepresentations = buildFishListHTML(regularFishArray, "Regular Fish")
 
     contentElement.innerHTML += `
         <article class="fishList">
-            ${fishHTMLRepresentations}
-            ${fishHTMLRepresentations}
-            ${fishHTMLRepresentations}
+            ${holyFishHTMLRepresentations}
+            ${soldierFishHTMLRepresentations}
+            ${regularFishHTMLRepresentations}
         </article>
     `
 }
