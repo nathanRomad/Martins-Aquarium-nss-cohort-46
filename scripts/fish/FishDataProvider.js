@@ -46,44 +46,35 @@ export const useFish = () => {
 }
 
 // Begin 3 functions for Holy fish Martin encountered in Tikal.
-// export const mostHolyFish = () => {
-//     const holyFish = []
+export const mostHolyFish = () => {
+    const holyFish = []
 
-//     for (fish of fishCollection) {
-//         if (fish.length % 3 === 0) {
-//            if (holyFish.length === 0) {
-//             holyFish += fish.name
-//         } else {
-//             holyFish += ", " + fish.name
-//         }
-//     }
-//     return holyFish
-// }
+    for (fishObj of fishCollection) {
+        if (fishObj.length % 3 === 0) {
+           if (holyFish.length === 0) {
+            holyFish.push(fishObj)
+    }
+    return holyFish
+}
 
-// export const soldierFish = () => {
-//     const soldiers = []
+export const soldierFish = () => {
+    const soldiers = []
 
-//     for (fish of fishCollection) {
-//         if (fish.length % 5 === 0) {
-//            if (soldiers.length === 0) {
-//             soldiers += fish.name
-//         } else {
-//             soldiers += ", " + fish.name
-//         }
-//     }
-// return soldiers
-// }
+    for (fishObj of fishCollection) {
+        if (fishObj.length % 5 === 0) {
+           if (soldiers.length === 0) {
+            soldiers.push(fishObj)
+    }
+    return soldiers
+}
 
-// export const nonHolyFish = () => {
-//     const regularFish = []
+export const nonHolyFish = () => {
+    const regularFish = []
 
-//     for (fish of fishCollection) {
-//         if (fish.length % 5 != 0 && fish.length % 3 != 0)
-//         (regularFish.length === 0) {
-//             regularFish += fish.name
-//         } else {
-//             regularFish += ", " + fish.name
-//         }
-// }
-// return holyFish
-// }
+    for (fishObj of fishCollection) {
+        if (fishObj.length % 5 !== 0 && fish.length % 3 !== 0)
+            if (regularFish.length === 0) {
+            regularFish.push(fishObj)
+    }
+    return holyFish
+}
