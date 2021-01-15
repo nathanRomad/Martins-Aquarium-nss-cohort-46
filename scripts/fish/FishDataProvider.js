@@ -48,7 +48,6 @@ export const useFish = () => {
 // Begin 3 functions for Holy fish Martin encountered in Tikal.
 export const mostHolyFish = () => {
     const holyFish = []
-
     for (fishObj of fishCollection) {
         if (fishObj.length % 3 === 0) {
            if (holyFish.length === 0) {
@@ -59,7 +58,6 @@ export const mostHolyFish = () => {
 
 export const soldierFish = () => {
     const soldiers = []
-
     for (fishObj of fishCollection) {
         if (fishObj.length % 5 === 0) {
            if (soldiers.length === 0) {
@@ -70,9 +68,8 @@ export const soldierFish = () => {
 
 export const nonHolyFish = () => {
     const regularFish = []
-
     for (fishObj of fishCollection) {
-        if (fishObj.length % 5 !== 0 && fish.length % 3 !== 0)
+        if (fishObj.length % 5 !== 0 && fish.length % 3 !== 0) {
             if (regularFish.length === 0) {
             regularFish.push(fishObj)
     }

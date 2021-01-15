@@ -11,9 +11,6 @@ import { mostHolyFish } from '/scripts/fish/FishDataProvider.js'
 import { soldierFish } from '/scripts/fish/FishDataProvider.js'
 import { nonHolyFish } from '/scripts/fish/FishDataProvider.js'
 
-
-
-
 const allTheFish = useFish()
 for (const fish of allTheFish) {
     // console.log(fish)
