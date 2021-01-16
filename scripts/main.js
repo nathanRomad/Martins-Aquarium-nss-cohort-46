@@ -7,6 +7,10 @@ import { LocationList } from '/scripts/locations/LocationList.js'
 import { useTip } from '/scripts/tips/TipDataProvider.js'
 import { TipList } from '/scripts/tips/TipList.js'
 
+import { mostHolyFish } from '/scripts/fish/FishDataProvider.js'
+import { soldierFish } from '/scripts/fish/FishDataProvider.js'
+import { nonHolyFish } from '/scripts/fish/FishDataProvider.js'
+
 const allTheFish = useFish()
 for (const fish of allTheFish) {
     // console.log(fish)
