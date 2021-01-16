@@ -41,9 +41,9 @@ const fishCollection = [
     }
 ]
 
-// export const useFish = () => {
-//     return fishCollection.slice()
-// }
+export const useFish = () => {
+    return fishCollection.slice()
+}
 
 // Begin 3 functions for Holy fish Martin encountered in Tikal.
 export const mostHolyFish = () => {
